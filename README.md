@@ -1,5 +1,27 @@
 # Capstoneprj-Part3
 
+
+# Access Database to CSV Conversion
+
+This script connects to an Access database, retrieves table data, and saves each table as a separate CSV file on your local machine.
+
+## Setup
+1. Clone or download the repository.
+2. Place the Access database file (`WPI.accdb`) in the specified location.
+3. Install the required Python libraries: `pandas` and `pyodbc` using `pip install pandas pyodbc`.
+
+## Usage
+1. Navigate to the script's directory.
+2. Run the script using the command: `python access_to_csv.py`.
+3. The script will print the tables in the Access database and save each table as a separate CSV file.
+
+## Notes
+- Update the `access_db_path` variable if the database file is in a different location, in this case, postgreSQL
+- Ensure appropriate permissions to access the database file.
+- Troubleshoot errors by checking dependencies and file paths.
+- Customize the script as per your requirements.
+
+
 Question 1: Haversine Distance Calculation - Port Distance to Jurong Island
 
 Overview:
